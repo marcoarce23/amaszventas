@@ -1,5 +1,5 @@
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:convex_bottom_bar/convex_bottom_bar.dart';
+
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:intl/intl.dart';
@@ -93,10 +93,10 @@ class _ListTournamentPageState extends State<ListTournamentPage> {
 
                   sizedBox(0, 8.0),
                   showInformation(
-                      context,
-                      'LISTADO DE TORNEOS - FIFA BOLIVIA?',
-                      'Conoce los resultados.',
-                     ),
+                    context,
+                    'LISTADO DE TORNEOS - FIFA BOLIVIA?',
+                    'Conoce los resultados.',
+                  ),
                   sizedBox(0, 5.0),
                   divider(),
                   listView(context, snapshot),

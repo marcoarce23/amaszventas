@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'dart:ui';
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:convex_bottom_bar/convex_bottom_bar.dart';
+
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:image_picker/image_picker.dart';
@@ -79,6 +79,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
+/*
   Widget _convexAppBar() {
     return ConvexAppBar.badge(
       {0: '99+', 1: Icons.assistant_photo, 2: Colors.redAccent},
@@ -109,7 +110,7 @@ class _HomePageState extends State<HomePage> {
       },
     );
   }
-
+*/
   void _showSnackBar(BuildContext context, String message) {
     Scaffold.of(context).showSnackBar(SnackBar(
       content: Text(message),

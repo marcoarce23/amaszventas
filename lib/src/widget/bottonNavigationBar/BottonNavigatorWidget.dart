@@ -1,13 +1,4 @@
-import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:virtual_match/src/model/util/Const.dart';
-import 'package:virtual_match/src/page/core/tourment/ListTournamentPage.dart';
-import 'package:virtual_match/src/page/event/EventLoadPage.dart';
-import 'package:virtual_match/src/page/faq/FaqListPage.dart';
-import 'package:virtual_match/src/page/new/NewLoadPage.dart';
-import 'package:virtual_match/src/theme/Theme.dart';
-import 'package:virtual_match/src/widget/general/GeneralWidget.dart';
-import 'package:virtual_match/src/widget/image/imageOvalWidget.dart';
 
 class BottonNavigation extends StatefulWidget {
   BottonNavigation({Key key}) : super(key: key);
@@ -19,7 +10,9 @@ class BottonNavigation extends StatefulWidget {
 class _BottonNavigationState extends State<BottonNavigation> {
   @override
   Widget build(BuildContext context) {
-    return ConvexAppBar.badge(
+    return Text("ss");
+/*
+    ConvexAppBar.badge(
       {0: '99+', 1: Icons.assistant_photo, 2: Colors.redAccent},
 
       backgroundColor: AppTheme.themeGrey,
@@ -59,5 +52,6 @@ class _BottonNavigationState extends State<BottonNavigation> {
         });
       },
     );
+    */
   }
 }
